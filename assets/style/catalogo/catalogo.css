@@ -5,7 +5,6 @@ body {
 }
 header {
     display: flex;
-    /* margin: 0 auto; */
     justify-self: center;
     position: fixed;
     width: calc(100% - 90px);
@@ -13,12 +12,10 @@ header {
     left: 90px;
     padding-left: 50px;
     background: linear-gradient(to left, #2c102e 50%, #4d225f );
-    /* padding-top: 10px; */
 }
 header img {
     width: 200px;
     display: flex;
-    /* margin: 0 auto; */
 }
 #lupa{
     height: 30px;
@@ -42,12 +39,8 @@ header img {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    /* margin-top: 10px; */
     color: #E0F9FE;
 }
-/* .barraNavegacao >:last-child {
-    margin-bottom: 10px;
-} */
 aside {
     position: sticky;
     top: 0;
@@ -67,10 +60,6 @@ aside {
 }
 button {
     all: unset;
-
-    /* margin-left: 2px;
-    /* margin-top: 30px; */
-    /* border-radius: 50px; */ 
 }
 a {
     text-decoration: none;
@@ -87,7 +76,6 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* margin-left: 5px; */
     margin: 0 auto;
     margin-top: 90px;
     margin-bottom: 60px;
@@ -107,13 +95,13 @@ main h1 {
     text-align: center;
     margin: 3px;
     border: solid #E0F9FE;
-    border-bottom-right-radius: 10px;/* canto inferior direito */
+    border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     color: #E0F9FE;
     background-color: #7D4D94;
     transition: 1s;
     overflow: hidden;
-    transition: height 0.6s ease;
+    transition: height 1.0s ease;
 }
 .informações .botoes {
     opacity: 0;
@@ -133,16 +121,15 @@ main h1 {
     display: flex;
 }
 .filme:hover {
-    /* border-color: black; */
     height: 475px;
-    transition: 0.7s ;
+    transition: 1.0s ;
 }
 .informações {
-    transition: all 0.5s ease;
+    transition: all 1.0s ease;
 }
 .maisInformacoes {
     transform: translateY(20px);
-    transition: all 0.5s ease;
+    transition: all 1.0s ease;
     display: flex;
     margin-left: 15px;
 }

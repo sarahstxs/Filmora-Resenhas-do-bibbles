@@ -7,15 +7,11 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    /* margin: 0 auto; */
     justify-self: center;
     position: fixed;
     width: calc(100%);
     color: #E0F9FE;
-    /* left: 90px; */
-    /* padding-left: 500px; */
     background: linear-gradient(to left, #2c102e 50%, #4d225f );
-    /* padding-top: 10px; */
     border-bottom: solid #E0F9FE;
 }
 .voltar {
@@ -25,15 +21,11 @@ header {
 }
 .voltar button {
     all: unset;
-    /* width: 35px; */
     padding-left: 30px;
 }
 .voltar button img {
     width: 35px;
 }
- /* main { */
-    /* display: flex; */
-    /* text-align: center; */
 article img{
     width: 100%;
     padding-top: 100px;
