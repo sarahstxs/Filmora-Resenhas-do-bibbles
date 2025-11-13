@@ -8,12 +8,12 @@ header {
     /* margin: 0 auto; */
     justify-self: center;
     position: fixed;
-    margin-left: 90px;
-    margin-top: 10px;
+    width: calc(100% - 90px);
     border-bottom: solid #E0F9FE;
-    width: 100%;
-    padding-left: 100px;
-    background-color: linear-gradient(to left, #2c102e 50%, #4d225f );
+    left: 90px;
+    padding-left: 50px;
+    background: linear-gradient(to left, #2c102e 50%, #4d225f );
+    /* padding-top: 10px; */
 }
 header img {
     width: 200px;

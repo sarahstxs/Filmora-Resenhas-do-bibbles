@@ -1,75 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style/series.css">
-    <title>Séries</title>
-    <link rel="website icon" type="png" href="/assets/img/pibbleApocaliptico.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/catalogo/barbie.css">
+    <title>Filmes da Barbie</title>
+    <link rel="website icon" type="png" href="/assets/img/bibble/pibbleApocaliptico.png">
 </head>
+
 <body>
     <header>
         <a href="/pages/index.html">
             <button>
-                <img src="/assets/img/logotipo.png" alt="">
+                <img src="/assets/img/logotipo/logotipo.png" alt="">
             </button>
         </a>
         <div id="barraPesquisa">
-            <img id="lupa" src="/assets/img/iconLupa.png" alt="">
+            <img id="lupa" src="/assets/img/icon/iconLupa.png" alt="">
             <input type="text" placeholder="Pesquisar">
         </div>
     </header>
-    <aside>
-        <nav>
-            <div id="selecionado" class="barraNavegacao">
-                <a href="/pages/inicio.html">
-                    <button>
-                        <img src="/assets/img/iconHome.png">
-                        <p href="/pages/index.html">Início</p>
-                    </button>
-                </a>
-            </div>
-            <div id="selecionado" class="barraNavegacao">
-                <a href="/pages/barbie.html">
-                    <button>
-                        <img src="/assets/img/iconBarbie.png">
-                        <p href="/pages/index.html">Barbie</p>
-                    </button>
-                </a>
-            </div>
-            <div class="barraNavegacao">
-                <a href="/pages/filmes.html">
-                    <button>
-                        <img src="/assets/img/iconfilmes.png" class="iconSidebar">
-                        <p href="/pages/index.html">Filmes</p>
-                    </button>
-                </a>
-            </div>
-            <div class="barraNavegacao">
-                <a href="/pages/series.html">
-                    <button>
-                        <img src="/assets/img/iconSeriesSelecionado.png" class="iconSidebar">
-                        <p href="/pages/index.html">Séries</p>
-                    </button>
-                </a>
-            </div>
-            <div class="barraNavegacao">
-                <a href="/pages/documentarios.html">
-                    <button>
-                        <img src="/assets/img/iconDocumentario.png" class="iconSidebar">
-                        <p href="/pages/index.html">Docu.</p>
-                    </button>
-                </a>
-            </div>
-            <div class="barraNavegacao">
-                <a href="/pages/sobreMim.html">
-                    <button>
-                        <img src="/assets/img/iconSobre.png" class="iconSidebar">
-                        <p href="/pages/index.html">Sobre</p>
-                    </button>
-                </a>
-            </div>
-        </nav>
-    </aside>
+    <div id="conteudo">
+        <aside>
+            <nav>
+                <div class="barraNavegacao">
+                    <a href="/pages/catalogo/barbie.html">
+                        <button>
+                            <img src="/assets/img/icon/iconBarbie.png">
+                            <p>Barbie</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="barraNavegacao">
+                    <a href="/pages/catalogo/filmes.html">
+                        <button>
+                            <img src="/assets/img/icon/iconfilmes.png" class="iconSidebar">
+                            <p>Filmes</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="barraNavegacao">
+                    <a href="/pages/catalogo/series.html">
+                        <button>
+                            <img src="/assets/img/icon/iconSeriesSelecionado.png" class="iconSidebar">
+                            <p>Séries</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="barraNavegacao">
+                    <a href="/pages/catalogo/sobreMim.html">
+                        <button>
+                            <img src="/assets/img/icon/iconSobre.png" class="iconSidebar">
+                            <p>Sobre</p>
+                        </button>
+                    </a>
+                </div>
+            </nav>
+        </aside>
+
+        <main>
+            <h1>Bibble aprova!</h1>
+            <section class="tituloSessao">
+                <!-- Você -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterYou.png" alt="">
+                    <div class="informações">
+                        <h1>Você</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">10/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt0450982" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="/pages/resenha/series/you.html">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- Breaking Bad -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterBreakingBad.png" alt="">
+                    <div class="informações">
+                        <h1>Breaking Bad</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">10/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt0775425" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="/pages/resenha/indisponivel.html">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- Stranger Things -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterStrangerThings.png" alt="">
+                    <div class="informações">
+                        <h1>Stranger Things</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.2/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt2066832" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- The Last of Us -->
+                <article class="filme">
+                    <img src="/assets/img/poster-barbie/bibble-aprova/posterBarbieMariposa.png" alt="">
+                    <div class="informações">
+                        <h1>The Last of Us</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.5/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt1201561" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- Dark -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterDark.png" alt="">
+                    <div class="informações">
+                        <h1>Dark</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.8/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt2396690" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- Black Mirror -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterBlackMirror.png" alt="">
+                    <div class="informações">
+                        <h1>Black Mirror</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.3/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt2091240" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+            </section>
+
+            <h1>Descobertas mágicas</h1>
+            <section class="tituloSessao">
+                <!-- It: Bem-vindos a Derry -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterBemVindoDerry.png" alt="">
+                    <div class="informações">
+                        <h1>It: Bem-vindos a Derry</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.0/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt1007920/" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- Peaky Blinders -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterPeakyBlinders.png" alt="">
+                    <div class="informações">
+                        <h1>Peaky Blinders</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.4/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt1294138" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- Game of Thrones -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterGameThrones.png" alt="">
+                    <div class="informações">
+                        <h1>Game of Thrones</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.0/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt1800254" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- O Gambito da Rainha -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterGambitoRainha.png" alt="">
+                    <div class="informações">
+                        <h1>O Gambito da Rainha</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">9.2/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt1725929" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- Sherlock -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterSherlock.png" alt="">
+                    <div class="informações">
+                        <h1>Sherlock</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">8.5/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt3921852" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+                <!-- WandaVision -->
+                <article class="filme">
+                    <img src="/assets/img/poster-series/posterWandaVision.png" alt="">
+                    <div class="informações">
+                        <h1>WandaVision</h1>
+                        <section class="maisInformacoes">
+                            <h1 id="nota">8.8/10</h1>
+                            <nav class="botoes">
+                                <a href="https://www.imdb.com/pt/title/tt2630134" target="_blank">
+                                    <button>Imdb</button>
+                                </a>
+                                <a href="">
+                                    <button>Resenha</button>
+                                </a>
+                            </nav>
+                        </section>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>
